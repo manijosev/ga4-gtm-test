@@ -1,0 +1,10 @@
+document.addEventListener("click",function(e){
+    if(e.target.closest("button")){
+        if(e.target.closest(".widget-bottom")){
+            console.log(e.target.innerHTML)
+        }
+        if(e.target.closest(".ga-ticket-action")){
+            console.log(e.target)
+        }
+    }
+});
